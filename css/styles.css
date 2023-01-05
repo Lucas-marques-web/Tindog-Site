@@ -1,0 +1,155 @@
+body{
+    font-family:cursive;
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+    
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+p{
+    color: gray;
+}
+
+
+/* Title section*/
+#title{
+    background-color: #ff4c68;
+}
+.iphone-img{
+    /* Rotate img */
+    transform: rotate(25deg);
+    width: 260px;
+    position: absolute;
+    right: 25%;
+}
+.container{
+    padding: 3% 5% 6%;
+    border: black 5px;
+}
+.download-button{
+    margin-top: 5%;
+    margin-right: 2% ;
+}
+.font-serif{
+    font-family: sans-serif;
+}
+
+/* Navbar section*/
+.navbar-brand{
+    font-size: 200%;
+}
+.nav-item{
+    font-size: 120%;
+    padding: 0px 8px;
+}
+
+
+/* Features section*/
+#features{
+    background-color: white;
+    position:relative;
+    z-index: 1;
+}
+
+.box-features{
+    padding: 10% 2%;
+}
+
+.icons-middle{
+    width: 45px; 
+}
+
+.icons-middle:hover{
+    border:3px solid #ff4c68;
+}
+
+
+/* Testimonials section*/
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+.testimonials-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 3% 3% 0%;
+}
+
+
+/* Press section*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.press-img{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+
+/* Pricing section*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.card-body{
+    height: 300px;
+}
+.button-card{
+margin-top: 40px;
+}
+
+
+/* CTA section*/ 
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 10%;
+    text-align: center;
+}
+
+
+/* Footer section*/
+#footer{
+    padding: 3%;
+    text-align: center;
+}
+
+.footer-img{
+    height: 20px;
+    margin: 10px;
+}
+
+
+/* this part makes the site responsive*/
+@media (max-width:1000px) {
+    .title{
+        text-align: center;
+    }
+    .iphone-img{
+        transform: rotate(0);
+        position: relative;
+        right: 0px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+}

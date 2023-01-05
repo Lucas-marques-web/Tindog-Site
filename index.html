@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- Bootstrap needs to be before the external css to work properly-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+   
+    <!-- Nav Bar section -->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tinder-icon.png" alt=""
+          width="60" height="50" class="d-inline-block align-text-top">
+        tindog
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#cta">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Title section-->
+
+    <div class="container title">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="h1-title font-serif">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class=" btn btn-dark btn-lg download-button"><img src="images/apple-logo.png"
+              alt="">Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><img
+              src="images/playstore-logo.png" alt="" height="30px" width="30px">Download</button>
+        </div>
+
+        <div class="col-lg-6 ">
+          <img src="images/iphone6.png" alt="iphone-mockup" class="iphone-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features  section-->
+
+  <section id="features">
+    <div class="container text-center">
+      <div class="row">
+        <div class="box-features  col-lg-4">
+          <img class="icons-middle" src="images/checkmark-img.png" alt="">
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="box-features col-lg-4">
+          <img class="icons-middle" src="images/target-img.png" alt="">
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="box-features col-lg-4 ">
+          <img class="icons-middle" src="images/heart-item.png" alt="">
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials section -->
+
+  <section id="testimonials">
+
+    <!--Carousel bootstrap-->
+    <div id="carouselControls" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonials-img" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonials-img" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <!-- Press  section -->
+
+  <section id="press">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing section -->
+
+  <section id="pricing">
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <!-- Card- Group bootstrap component-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="button-card btn btn-lg btn-block btn-dark">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="button-card btn btn-lg btn-block btn-dark">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-block btn-dark">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <!-- Call to Action section-->
+
+  <section id="cta">
+
+    <h3 class="">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class=" btn btn-dark btn-lg download-button"><img src="images/apple-logo.png"
+        alt="">Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><img src="images/playstore-logo.png"
+        alt="" height="30px" width="30px">Download</button>
+    </div>
+
+  </section>
+
+
+  <!-- Footer  section -->
+
+  <footer id="footer">
+    <img class="footer-img" src="images/facebook.svg" alt="facebook">
+    <img class="footer-img" src="images/envelope-solid.svg" alt="mail">
+    <img class="footer-img" src="images/twitter.svg" alt="twitter">
+    <img class="footer-img" src="images/instagram.svg" alt="instagram">
+    <p>© Copyright TinDog</p>
+
+  </footer>
+
+  <!-- To make some features of the bootstrap work-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
