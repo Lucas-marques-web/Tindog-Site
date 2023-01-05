@@ -17,5 +17,3 @@ credits to  https://appbrewery.com/
 (Link)[https://lucas-marques-web.github.io/Tindog-Site/]
 
 
-## Image
-
