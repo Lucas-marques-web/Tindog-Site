@@ -2,15 +2,20 @@
 
 ## Description
 
- The Idea for this Site is a Tinder copy but for pets
+This Incredilibly Idea is a tinder where the pets are the ones who chose their partner
 
+credits to  https://appbrewery.com/
 
 ## Technologies
 
-* HTMl5
-*
-*
+* HTMl 5
+* Css 3
+* Bootstap 5.3
 
 ## Try it out
 
 (Link)[https://lucas-marques-web.github.io/Tindog-Site/]
+
+
+## Image
+
